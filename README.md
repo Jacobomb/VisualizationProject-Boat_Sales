@@ -31,7 +31,7 @@ Los pasos han sido los siguientes:
 
 * La columna `Location` ha sido limpiada para separar en País y Ciudad. Se puede apreciar un patrón de separación y se explica en mayor detalle en el mencionado [fichero](https://github.com/Jacobomb/VisualizationProject-Boat_Sales/blob/main/notebooks/1).
 
-Una vez la BBDD está lista, se guarda en [data](https://github.com/Jacobomb/VisualizationProject-Boat_Sales/tree/main/data) distinguióndola de la BBDD original. 
+Una vez la BBDD está lista, se guarda en [data](https://github.com/Jacobomb/VisualizationProject-Boat_Sales/tree/main/data) distinguiéndola de la BBDD original. 
 
 Llegados a este punto se puede proceder con la visualización.
 
