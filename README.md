@@ -21,8 +21,6 @@ En esta base de datos se incluyen las siguientes columnas:
 
 El primer paso tras descargar la información de tipo CSV es limpiar y preparar la información de cara a la visualización.
 
-1) Limpieza
-
 En la carpeta [notebooks](https://github.com/Jacobomb/VisualizationProject-Boat_Sales/tree/main/notebooks) se puede encontrar el [fichero](https://github.com/Jacobomb/VisualizationProject-Boat_Sales/blob/main/notebooks/1.CleaningData.ipynb) en Python donde se realiza la limpieza de la tabla. 
 
 Los pasos han sido los siguientes:
@@ -51,11 +49,29 @@ En primer lugar se muestra un *Overview* con infromación de la BBDD. Se incluye
 
 En el resto de páginas del proyecto se puede dividir en dos partes. 
 
-1) En primer lugar se estudia el gusto de los consumidores vía la variable `Visitas en los últimos 7 días`. Se utiliza esta variable como un indicador de gusto del potencial comprador. Para ello, se han .....(SEGUIR AQUÍ CONTANDO UN POCO POR ENCIMA QUE HAY EN CADA PESTAÑA Y CONCLUISONES POR ENCIMA QUE SE PUEDAN OBTENER, LO DE LOS PRECIOS DE LOS MATERIALES Y TAL...)
+1) En primer lugar se estudia el gusto de los consumidores vía la variable `Visitas en los últimos 7 días`. Se utiliza esta variable como un indicador de gusto del potencial comprador. Para ello, se han graficado la media de visitas a los anuncios versus tipo de embarcación, propulsión y material de las partes estructurales del barco. 
+
+Entre otras conclusiones, se sacan las siguintes:
+
+* `Actividad`: Los barcos dedicados a actividades de ocio en el agua son sin duda las que más busquedas concentran. Con mucha diferencia, son los barcos dedicados a deportes acuáticos los que más se codician, siguiendo a actividades como la pesca.
+
+* `Propulsión`: En el caso de la propulsión, los barcos de motor causan mucho mayor interés que los barcos veleros, y en la mayor parte de los casos los clientes buscan barcos de segunda mano. Esto se debe a que la mayor parte de la base de datos está conformada por barcos usados y a que cuando un cliente busca un barco nuevo, suele dirigirse directamente a la página web del fabricante para una información más cuidada y detallada.
+
+* `Material` y `precio`: En cuanto al material del casco y otras partes estructurales, los plásticos copan gran parte del interés del comprador, le siguen la fibra de carbono, la madera y la fibra de vidrio. En cuanto al precio, se aprecia que la distribución no es exactamente igual. EL aluminio y la fibra de carbono tienen un precio muy superior al resto. Se entiende que los plásticos sean los materiales de elección dado su bajo precio medio.
+
+2) En segundo lugar se estudia el precio medio por fabricante y año de fabricación.
+
+* En la página 4 del proyecto se pueden ver los fabricantes y precios medios de sus barcos según el mercado. Se puede escoger el país en estudio y comprobar en que valores fluctuan los precios.
+
+* Finalmente, se proyecta sobre un *treemap* los precios medios de los años de fabricación más caros. Salvo alguna excepción, no sorprende ver que los barcos más modernos tienen un coste mayor.
+
+![Treemap](./visuals_captures/Page5.png)
 
 ## Trabajos futuros
 
-COMENTAR AQUÍ COMO PUEDE MEJORAR EL ESTUDIO!!!
+De cara a trabajos futuros, el autor cree pertinenete hacer un estudio más a fondo de las dimensiones de los barcos y la relación que estas pueden tener con los materiales de fabricación.
+
+También se tiene intención de, ampliando la base de datos, averiguar como se traducen las visitas en compras reales. Se cree que pese a ser una variable interesante y útil, el número de visitas no siempre nos indica clientes realmente interesados o dispuestos a desembolsar una cantidad de capital tan importante.
 
 ## Herramientas y fuentes utilizadas
 
